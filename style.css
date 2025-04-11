@@ -15,9 +15,35 @@ body{
     margin-top: 20px;
     background-color: #fffdfd;
     height: 60px;
-    
-
 }
+
+.opcoes-btn{
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 8px;
+  
+}
+
+.opcoes-btn span{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #000;
+}
+
+.opcoes-btn span:nth-child(1){
+    top: 0;
+}
+
+.opcoes-btn span:nth-child(3){
+    top: 100%;
+}
+
 
 .menu-site input{
     margin-left: 600px;
