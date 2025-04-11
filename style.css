@@ -23,8 +23,7 @@ body{
     position: absolute;
     cursor: pointer;
     margin-top: 30px;
-    padding: 8px;
-  
+    padding: 8px; 
 }
 
 .opcoes-btn span{
@@ -52,8 +51,20 @@ body{
     margin: 10px;
    transform: translateY(-30px);
    padding: 10px;
-   
 }
+
+#login{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 0px;
+    margin: 10px;
+    position: fixed;
+    top: 0.2;
+    right: 0;
+}
+
+
 
 #you{
     width: 200px;
@@ -80,8 +91,7 @@ body{
     border: 1px solid #dbdbdb;
     padding: 0 20px;
     font-size: 16px;
-    text-transform: capitalize;
-    
+    text-transform: capitalize; 
 }
 
 
@@ -104,7 +114,6 @@ body{
     flex-direction: column;
     gap: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
    margin: 20px;
 }
 
@@ -113,8 +122,6 @@ body{
     gap: 30px;
     color: #030303;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-
 }
 
 .comentario img, .novocomentario img{
